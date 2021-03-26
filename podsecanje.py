@@ -14,3 +14,7 @@ kraj = t.time()
 print(pocetak)
 print(kraj)
 print(kraj-pocetak)
+niz_vreme = t.localtime()
+sat = niz_vreme.tm_hour
+minut = niz_vreme.tm_min
+print(sat, minut)
